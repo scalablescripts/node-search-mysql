@@ -1,0 +1,13 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "database": "node_search",
+  "synchronize": true,
+  "logging": false,
+  "entities": [
+    "src/entity/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/entity"
+  }
+}
